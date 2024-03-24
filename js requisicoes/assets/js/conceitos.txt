@@ -1,0 +1,48 @@
+/*
+ cada linha de código tem seu tempo de execução, por exemplo:
+let nome = Pedro
+let sobrenome = Otavio
+let nomecompleto = nome + sobrenome
+
+Na programação Sicrona, a let nome é lida primeiro, logo após seu tempo de execução zerar a let sobrenome é lida e por fim o nomecompleto,
+retornando no console "Pedro Otávio"
+
+Na programação Assincrona esse tempo de execução não existe e todas as variáves são lidas ao mesmo tempo, ou seja, a let nomecompleto retornaria
+undefined já que ela depende de outras duas para funcionar
+*/
+
+/*
+Como a Web Funciona (Requisição e Resposta)
+Requisição (Request): Todo site, pesquisa é uma requisição, ou seja, tudo que eu acesso na internet.
+-> Cabeçalhos / Headers: São enviados juntos a requisição contendo diversas iformações sobre o usuario, navegador, entre outras
+-> Corpo / Body: Logo abaixo do header, ele contém as informações expecificas que queremos quando chamamos a requisição, geralmente ele é vazio
+
+Resposta (Response): A resposta para a requisição, quando digito um link o servidor me retorna a página desse link
+-> Cabeçalhos / Headers: Conteudos internos que o próprio servidor manda para mim, itens de cash
+-> Corpo / Body: No body é onde temos o HTML dessa página
+*/
+
+/*
+Como uma API funciona?
+API = Application Programming interface (Interface de programação para aplicação)
+Uma forma convencional de conectar diferentes sistemas (softwares)
+
+JSON (Javascript Object Notation) = padrão de linguagem entre comunicação interna entre servidores
+
+https://jsonplaceholder.typicode.com/posts
+*/
+
+/*
+O que é um callback?
+função de click no botao:
+- requisição para URL x com uma função callback
+- quando o servidor retornar uma resposta a função callBack é acionada
+*/
+
+/*document.querySelector('#botao')
+    .addEventListener('click',()=>{
+        document.querySelector('h1').innerHTML = "Clicado";
+    }
+);
+*/
+
